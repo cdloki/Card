@@ -1,19 +1,52 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Form</title>
+	<title>card</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<?php 
-	echo "Chào bạn".$_POST["name"],"email của bạn là".$_POST["email"];
-	?>
 </head>
 <body>
-<form  type="post">
-<label>Nhập họ tên:</label>
-<input name="name" type="text"></input>
-<label>Nhập Địa chỉ email:</label>
-<input name="email" type="text"></input>
-<button type="submit"> GỬi </button>
-</form>
+<div class="container">
+	<div class="cards">
+		<div class="card">
+			<h2>Lorem ipsum</h2>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua.
+			
+			</p>
+			<div class="number">
+				<h1>1</h1>
+			</div>
+		</div>
+	</div>
+
+	<div class="cards">
+		<div class="card">
+			<h2>Lorem ipsum</h2>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua.
+			
+			</p>
+			<div class="number">
+				<h1>2</h1>
+			</div>
+		</div>
+	</div>
+
+	<div class="cards">
+		<div class="card">
+			<h2>Lorem ipsum</h2>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua.
+			
+			</p>
+			<div class="number">
+				<h1>3</h1>
+			</div>
+		</div>
+	</div>
+</div>
 </body>
 </html>
